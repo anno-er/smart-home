@@ -1,0 +1,3 @@
+分别在arduino UNO 板子上和esp8266板子上完成了DHT11温湿度传感器的实验
+
+在esp8266中加载了blinker的库，并在手机上利用blinker APP实现了温湿度的显示。利用心跳包固定刷新。
