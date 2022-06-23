@@ -31,6 +31,7 @@ void Button1_callback(const String &state)
     irsend.sendRaw(power_on, 399, 38);  // Send a raw data capture at 38kHz.
     Button1.print("205空调开");
     Serial.print("205空调关");
+    //test
   }
 }
 //回调函数
